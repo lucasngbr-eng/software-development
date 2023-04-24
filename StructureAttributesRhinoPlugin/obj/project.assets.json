@@ -1,0 +1,192 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "RhinoCommon/7.27.23032.13001": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net48/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net48/RhinoCommon.targets": {}
+        }
+      },
+      "RhinoWindows/7.27.23032.13001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.27.23032.13001]"
+        },
+        "compile": {
+          "lib/net48/Eto.Wpf.dll": {},
+          "lib/net48/RhinoWindows.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Eto.Wpf.dll": {},
+          "lib/net48/RhinoWindows.dll": {}
+        },
+        "build": {
+          "build/net48/RhinoWindows.targets": {}
+        }
+      },
+      "StructureAttributes.MVVM/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/StructureAttributes.MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StructureAttributes.MVVM.dll": {}
+        }
+      },
+      "StructureAttributes.UI/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "StructureAttributes.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StructureAttributes.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StructureAttributes.UI.dll": {}
+        }
+      },
+      "StructureAttributes.ViewModels/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "StructureAttributes.MVVM": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StructureAttributes.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StructureAttributes.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RhinoCommon/7.27.23032.13001": {
+      "sha512": "24SI5XkTKwlcMxKeyXla6OLZv8fwmUH3lGdyWrkn9LV545WdBLkDlYqISSCy+SIOvjrRkdi90/8KE3H5YkexAg==",
+      "type": "package",
+      "path": "rhinocommon/7.27.23032.13001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/net48/RhinoCommon.targets",
+        "lib/net48/Eto.dll",
+        "lib/net48/Eto.xml",
+        "lib/net48/Rhino.UI.dll",
+        "lib/net48/RhinoCommon.XML",
+        "lib/net48/RhinoCommon.dll",
+        "rhinocommon.7.27.23032.13001.nupkg.sha512",
+        "rhinocommon.nuspec",
+        "rhinocommon.png"
+      ]
+    },
+    "RhinoWindows/7.27.23032.13001": {
+      "sha512": "FeE/YK3avu0KdGsQWeHmiBkgt2TqNA7XUEg1JKNMgYDPxAP2NL+p/HFfvBaxHMQkT7hUTBsn/1fIEna6ijNS0A==",
+      "type": "package",
+      "path": "rhinowindows/7.27.23032.13001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/net48/RhinoWindows.targets",
+        "lib/net48/Eto.Wpf.dll",
+        "lib/net48/RhinoWindows.dll",
+        "rhinowindows.7.27.23032.13001.nupkg.sha512",
+        "rhinowindows.nuspec"
+      ]
+    },
+    "StructureAttributes.MVVM/1.0.0": {
+      "type": "project",
+      "path": "../StructureAttributes.MVVM/StructureAttributes.MVVM.csproj",
+      "msbuildProject": "../StructureAttributes.MVVM/StructureAttributes.MVVM.csproj"
+    },
+    "StructureAttributes.UI/1.0.0": {
+      "type": "project",
+      "path": "../StructureAttributes.UI/StructureAttributes.UI.csproj",
+      "msbuildProject": "../StructureAttributes.UI/StructureAttributes.UI.csproj"
+    },
+    "StructureAttributes.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../StructureAttributes.ViewModel/StructureAttributes.ViewModels.csproj",
+      "msbuildProject": "../StructureAttributes.ViewModel/StructureAttributes.ViewModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "RhinoCommon >= 7.27.23032.13001",
+      "RhinoWindows >= 7.27.23032.13001",
+      "StructureAttributes.UI >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lucas.nunes\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lucas.nunes\\OneDrive - Ita Construtora\\ITA + GH Desenvolvimento\\Software Development\\MVVM\\ita-rfem\\StructureAttributesRhinoPlugin\\StructureAttributesRhinoPlugin.csproj",
+      "projectName": "StructureAttributesRhinoPlugin",
+      "projectPath": "C:\\Users\\lucas.nunes\\OneDrive - Ita Construtora\\ITA + GH Desenvolvimento\\Software Development\\MVVM\\ita-rfem\\StructureAttributesRhinoPlugin\\StructureAttributesRhinoPlugin.csproj",
+      "packagesPath": "C:\\Users\\lucas.nunes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucas.nunes\\OneDrive - Ita Construtora\\ITA + GH Desenvolvimento\\Software Development\\MVVM\\ita-rfem\\StructureAttributesRhinoPlugin\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lucas.nunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {
+            "C:\\Users\\lucas.nunes\\OneDrive - Ita Construtora\\ITA + GH Desenvolvimento\\Software Development\\MVVM\\ita-rfem\\StructureAttributes.UI\\StructureAttributes.UI.csproj": {
+              "projectPath": "C:\\Users\\lucas.nunes\\OneDrive - Ita Construtora\\ITA + GH Desenvolvimento\\Software Development\\MVVM\\ita-rfem\\StructureAttributes.UI\\StructureAttributes.UI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "RhinoCommon": {
+            "include": "Compile, Build",
+            "target": "Package",
+            "version": "[7.27.23032.13001, )"
+          },
+          "RhinoWindows": {
+            "target": "Package",
+            "version": "[7.27.23032.13001, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

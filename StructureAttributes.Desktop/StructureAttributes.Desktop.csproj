@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BDA09429-9B81-46F1-A05A-08AF6B0609BB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>StructureAttributes.Desktop</RootNamespace>
+    <AssemblyName>StructureAttributes.Desktop</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eto, Version=2.7.0.0, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
+      <HintPath>..\StructureAttributes.MVVM\packages\RhinoCommon.7.27.23032.13001\lib\net48\Eto.dll</HintPath>
+    </Reference>
+    <Reference Include="Eto.Wpf, Version=2.7.0.0, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
+      <HintPath>..\StructureAttributes.MVVM\packages\RhinoWindows.7.27.23032.13001\lib\net48\Eto.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.UI, Version=7.27.23032.13001, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
+      <HintPath>..\StructureAttributes.MVVM\packages\RhinoCommon.7.27.23032.13001\lib\net48\Rhino.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="RhinoCommon, Version=7.27.23032.13001, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
+      <HintPath>..\StructureAttributes.MVVM\packages\RhinoCommon.7.27.23032.13001\lib\net48\RhinoCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="RhinoWindows, Version=7.27.0.0, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
+      <HintPath>..\StructureAttributes.MVVM\packages\RhinoWindows.7.27.23032.13001\lib\net48\RhinoWindows.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\StructureAttributes.MVVM\packages\RhinoCommon.7.27.23032.13001\build\net48\RhinoCommon.targets" Condition="Exists('..\StructureAttributes.MVVM\packages\RhinoCommon.7.27.23032.13001\build\net48\RhinoCommon.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\StructureAttributes.MVVM\packages\RhinoCommon.7.27.23032.13001\build\net48\RhinoCommon.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\StructureAttributes.MVVM\packages\RhinoCommon.7.27.23032.13001\build\net48\RhinoCommon.targets'))" />
+    <Error Condition="!Exists('..\StructureAttributes.MVVM\packages\RhinoWindows.7.27.23032.13001\build\net48\RhinoWindows.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\StructureAttributes.MVVM\packages\RhinoWindows.7.27.23032.13001\build\net48\RhinoWindows.targets'))" />
+  </Target>
+  <Import Project="..\StructureAttributes.MVVM\packages\RhinoWindows.7.27.23032.13001\build\net48\RhinoWindows.targets" Condition="Exists('..\StructureAttributes.MVVM\packages\RhinoWindows.7.27.23032.13001\build\net48\RhinoWindows.targets')" />
+</Project>

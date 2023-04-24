@@ -1,0 +1,15 @@
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\bin\Debug\StructureAttributes.MVVM.dll
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\bin\Debug\StructureAttributes.MVVM.pdb
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\obj\Debug\StructureAttributes.MVVM.csproj.AssemblyReference.cache
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\obj\Debug\StructureAttributes.MVVM.csproj.CoreCompileInputs.cache
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\obj\Debug\StructureAttributes.MVVM.dll
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\obj\Debug\StructureAttributes.MVVM.pdb
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\bin\Debug\Eto.dll
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\bin\Debug\Rhino.UI.dll
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\bin\Debug\RhinoCommon.dll
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\bin\Debug\Eto.xml
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\bin\Debug\RhinoCommon.xml
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\obj\Debug\StructureAttributes.MVVM.csproj.CopyComplete
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\obj\Debug\StructureAttributes.MVVM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\obj\Debug\StructureAttributes.MVVM.csproj.Fody.CopyLocal.cache
+C:\Users\lucas.nunes\OneDrive - Ita Construtora\ITA + GH Desenvolvimento\Software Development\MVVM\StructureAttributes.MVVM\obj\Debug\StructureAttributes.MVVM.csproj.Fody.RuntimeCopyLocal.cache

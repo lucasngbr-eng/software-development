@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WuCtNaWP3K4lR7XBcEpB3RFqoSlnWuPEAJHc0eCa/IDrCr85J/VeLt1isQlKLGe/SREnPR4v11etliogOBrqMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucas.nunes\\OneDrive - Ita Construtora\\ITA + GH Desenvolvimento\\Software Development\\MVVM\\ita-rfem\\StructureAttributesRhinoPlugin\\StructureAttributesRhinoPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas.nunes\\.nuget\\packages\\rhinocommon\\7.27.23032.13001\\rhinocommon.7.27.23032.13001.nupkg.sha512",
+    "C:\\Users\\lucas.nunes\\.nuget\\packages\\rhinowindows\\7.27.23032.13001\\rhinowindows.7.27.23032.13001.nupkg.sha512"
+  ],
+  "logs": []
+}
